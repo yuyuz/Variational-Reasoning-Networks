@@ -3,7 +3,7 @@ make
 
 nhop_subg=3
 dataset=ntm
-data_root=../nips_data
+data_root=../metaQA
 #net_type=NetMultiHop
 net_type=NetLatentY
 

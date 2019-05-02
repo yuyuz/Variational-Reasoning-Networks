@@ -4,7 +4,7 @@ make
 nhop_subg=1
 init_pct=0.05
 dataset=vanilla
-data_root=../nips_data
+data_root=../metaQA
 net_type=NetMultiHop
 init_idx_file=$data_root/$nhop_subg-hop/init_index_${init_pct}_qa_train.txt
 

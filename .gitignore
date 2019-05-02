@@ -1,5 +1,5 @@
 build/
-nips_data
-nips_data/
+metaQA
+metaQA/
 .vscode/
 Makefile

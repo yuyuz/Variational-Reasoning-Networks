@@ -3,7 +3,7 @@ make
 
 nhop_subg=1
 dataset=vanilla
-data_root=../nips_data
+data_root=../metaQA
 net_type=NetLatentY
 
 result_root=$HOME/scratch/results/graph_mem/nhop-$nhop_subg/$dataset
