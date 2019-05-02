@@ -81,10 +81,11 @@ The script `vis.sh` is used to visualize the learned inference logic, where `eva
 
 If you find the code or data is useful, please cite our work:
 
+```
 @inproceedings{zhang2018variational,
   title={Variational reasoning for question answering with knowledge graph},
   author={Zhang, Yuyu and Dai, Hanjun and Kozareva, Zornitsa and Smola, Alexander J and Song, Le},
   booktitle={Thirty-Second AAAI Conference on Artificial Intelligence},
   year={2018}
 }
-
+```
