@@ -1,0 +1,30 @@
+#include "config.h"
+
+int cfg::iter = 0;
+int cfg::max_bp_iter = 1;
+int cfg::max_q_iter = 1;
+int cfg::nhop_subg = 1;
+int cfg::num_neg = 100;
+int cfg::n_hidden = 64;
+int cfg::test_tpok = 5;
+bool cfg::test_only = false;
+bool cfg::vis_score = false;
+unsigned cfg::n_embed = 64;
+unsigned cfg::max_iter = 0;
+unsigned cfg::dev_id = 0;
+unsigned cfg::batch_size = 32;
+unsigned cfg::test_interval = 10000;
+unsigned cfg::report_interval = 100;
+unsigned cfg::save_interval = 50000;
+Dtype cfg::lr = 0.0005;
+Dtype cfg::margin = 0.1;
+Dtype cfg::l2_penalty = 0;
+Dtype cfg::momentum = 0;
+Dtype cfg::w_scale = 0.01;
+Dtype cfg::p_pos = 0.5;
+const char* cfg::save_dir = "./saved";
+const char* cfg::dataset = nullptr;
+const char* cfg::net_type = nullptr;
+const char* cfg::data_root = nullptr;
+const char* cfg::loss_type = nullptr;
+const char* cfg::init_idx_file = nullptr;
